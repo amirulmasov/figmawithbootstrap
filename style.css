@@ -1,0 +1,272 @@
+.shop-explore {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid #000; */
+}
+.buttondiv {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    gap: 2px;
+    flex-direction: column;
+    display: none;
+}
+.ustun {
+    width: 12px;
+    height: 1px;
+    background-color: #fff;
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    z-index: 10;
+}
+.bx-user {
+    color: #fff;
+    display: none;
+}
+.buttondiva {
+    display: none;
+}
+.buttondiva2 {
+    display: none;
+}
+.user {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.logo {
+    /* position: absolute;
+    left: 850px; */
+    width: 200px;
+    height: 30px;
+    background: url(/img/Frame.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.shop {
+    width: 150px;
+    height: 25px;
+    border-radius: 50px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop:hover {
+    background-color: gray;
+}
+.shoptext {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-weight: 500;
+    color: #000;
+    transition: 0.5s;
+    font-size: 13px;
+}
+.shop:hover .shoptext {
+    color: #fff;
+}
+.explore:hover {
+    background-color: gray;
+}
+.explore {
+    width: 140px;
+    height: 25px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.exploretext {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+    transition: 0.5s;
+}
+.explore:hover .exploretext {
+    color: #fff;
+}
+.mycart {
+    width: 120px;
+    height: 25px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.mycart:hover {
+    background-color: gray;
+    border-radius: 50px;
+}
+.mycarttext {
+    color: #000;
+    font-family: 'Pathway Extreme', sans-serif;
+    transition: 0.5s;
+    margin-bottom: 0rem;
+}
+.mycart:hover .mycarttext {
+    color: #fff;
+}
+.compplace {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.imgplace {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/img/Rectangle.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.textplace {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.firsttext {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 40px;
+}
+.secondtext {
+    color: #fff;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 17px; */
+}
+.learnmore {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: 0.5s;
+    }
+.learnmore:hover {
+    background-color: #fff;
+}
+.learnmore:hover .thirdtext {
+    color: #000;
+}
+.thirdtext {
+    color: #fff;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.sectionTwo {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+}
+.textsflex {
+    width: 550px;
+    height: 280px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0;
+    /* border: 1px solid #000; */
+}
+.flextextOne {
+    font-size: 55px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid #000; */
+}
+.opacitytext {
+    color: #A0A0A0;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    /* border: 1px solid #000; */
+}
+.getstarted {
+    width: 170px;
+    height: 30px;
+    /* border: 1px solid #000; */
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    /* border: 1px solid #000; */
+}
+.getstarted:hover {
+    background-color: gray;
+}
+.getstarted:hover .getstartedtext {
+    color: #fff;
+}
+.getstartedtext {
+    width: 150px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    transition: 0.5s;
+}
+.break {
+    width: 100%;
+    height: 100px;
+    gap: 10px;
+}
+.futured {
+    font-size: 35px;
+}
+.tochka {
+    width: 100%;
+    height: 12px;
+    gap: 10px;
+}
+.tochkacha {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+}

@@ -1,0 +1,57 @@
+.sectionThree {
+    width: 100%;
+    height: 500px;
+    /* border: 5px solid #000; */
+    display: flex;
+    flex-direction: column;
+}
+.iktaimg {
+    width: 100%;
+    height: 550px;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-self: start;
+}
+.rasmcha {
+    width: 470px;
+    border-radius: 20px;
+}
+.iktarasm {
+    width: 470px;
+    height: 450px;
+    /* background: url(/img/Rectangle\ \(1\).png); */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    /* border: 1px solid #000;  */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.iktarasm2 {
+    width: 470px;
+    height: 450px;
+    /* background: url(/img/Rectangle\ \(2\).png); */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    /* border: 1px solid #000;  */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.textcolumn {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.deskpads {
+    font-size: 24px;
+}
