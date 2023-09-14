@@ -1,0 +1,46 @@
+.letscode {
+    color: #fff;
+    transition: 0.5s;
+    width: 200px;
+    height: 25px;
+    border-radius: 50px;
+}
+.letscode:hover {
+    width: 200px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 50px;
+}
+.readtext {
+    color: #000;
+    transition: 0.5s;
+    width: 300px;
+}
+.readtext:hover {
+    width: 300px;
+    background-color: gray;
+    border-radius: 50px;
+    color: #fff;
+}
+.learnmoretext4 {
+    width: 130px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.learnmoretext4:hover {
+    width: 130px;
+    border-radius: 50px;
+    background-color: gray;
+}
+.learnmore2 {
+    width: 130px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #000;
+}
+.learnmore2:hover {
+    color: #fff;
+    width: 130px;
+    border-radius: 50px;
+    background-color: gray;
+}
